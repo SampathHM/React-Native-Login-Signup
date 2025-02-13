@@ -7,17 +7,17 @@ export default function LoginView() {
   const [email, setEmail] = React.useState('')
   const [password, setPassword] = React.useState('')
 
+  function handleForgotPassword() {
+    console.log('Forgot password pressed')    
+  }
+
   function handleLogin() {
     console.log('Login Button pressed')
   }
 
   function handleSignupLink() {
     console.log('Signup link pressed')
-  }
-
-  function handleForgotPassword() {
-    console.log('Forgot password pressed')
-  }
+  }  
 
   return (
     <View style={styles.container}>

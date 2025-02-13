@@ -5,8 +5,8 @@ import SignupView from "./Login&Signup/SignupView"
 export default function Index() {
   return (
     <View style={{ flex: 1, backgroundColor: "white" }}>
-      {/*<LoginView />*/}
-      {<SignupView />}
+      {<LoginView />}
+      {/*<SignupView />*/}
     </View>
   )
 }
